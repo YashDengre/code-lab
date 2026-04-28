@@ -61,7 +61,7 @@ namespace ConceptRevision.Design_Patterns.Structural.Adapter_Design_Pattern
         }
     }
 
-    // 2.2 Class Adapter Patter: Where we inheri adapter from adaptee and common interface and utilzie the behavior of adaptee through inheritance
+    // 2.2 Class Adapter Patter: Where we inherit adapter from adaptee and common interface and utilzie the behavior of adaptee through inheritance
     // Third Party
     public class StripePaymentAdapter_Class : StripeService, IPaymentGateway
     {

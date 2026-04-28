@@ -42,9 +42,9 @@
     {
 
         protected IClassciOrderMediator _mediator;
-        protected BaseOrderComponenet(IClassciOrderMediator mediato)
+        protected BaseOrderComponenet(IClassciOrderMediator mediator)
         {
-            _mediator = mediato;
+            _mediator = mediator;
         }
     }
 

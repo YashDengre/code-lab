@@ -76,8 +76,8 @@ namespace ConceptRevision.ApplicationSetup
                 services.AddKeyedScoped<IPaymentGateway, LegacyPaymentAdapter>("legacy-payment");
 
                 //Class based adapater
-                services.AddKeyedScoped<IPaymentGateway, StripePaymentAdapter_Class>("third-party-payment");
-                services.AddKeyedScoped<IPaymentGateway, LegacyPaymentAdapter_Class>("legacy-payment");
+                services.AddKeyedScoped<IPaymentGateway, StripePaymentAdapter_Class>("third-party-payment_Class");
+                services.AddKeyedScoped<IPaymentGateway, LegacyPaymentAdapter_Class>("legacy-payment_Class");
 
                 #endregion
 
